@@ -16,8 +16,8 @@
   "functions": {
     "source": "functions",
     "predeploy": [
-      "yarn --prefix \"$RESOURCE_DIR\" run lint",
-      "yarn --prefix \"$RESOURCE_DIR\" run build"
+      "cd functions && yarn lint",
+      "cd functions && yarn build"
     ]
   }
 }
