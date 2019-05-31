@@ -5,7 +5,7 @@
   "author": "Takuya Iida",
   "private": true,
   "scripts": {
-    "dev": "cd app && nuxt",
+    "app": "cd app && yarn dev",
     "lint": "cd app && yarn lint && cd ../functions && yarn lint",
     "build": "yarn build:setup && cd app && yarn build && cd ../functions && yarn build",
     "build:setup": "yarn && cd app && yarn && cd ../functions && yarn",
