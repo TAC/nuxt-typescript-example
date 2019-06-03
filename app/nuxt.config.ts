@@ -42,6 +42,8 @@ const nuxtConfig: NuxtConfiguration = {
    ** Build configuration
    */
   build: {
+    publicPath: '/assets/',
+
     /*
      ** You can extend webpack config here
      */
